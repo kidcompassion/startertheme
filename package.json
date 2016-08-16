@@ -1,17 +1,33 @@
-
 {
-  "name": "Starter Theme",
-  "version": "1",
-  "description": "A basic starter for WP",
-  "author": "Sally Poulsen"
-},
-
-  "repository": {
-  "type": "git",
-  "url": "https://github.com/kidcompassion/startertheme"
-},
+  "name": "startertheme",
+  "version": "1.0.0",
+  "description": "Basic WP theme",
+  "main": "Gulpfile.js",
   "dependencies": {
-    "gulp": "3.9.1",
-    "gulp-sass": "2.3.2",
-  }
-  
+    "foundation-sites": "^6.2.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-less": "^3.1.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidcompassion/startertheme.git"
+  },
+  "keywords": [
+    "wordpress",
+    "starter"
+  ],
+  "author": "Sally Poulsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kidcompassion/startertheme/issues"
+  },
+  "homepage": "https://github.com/kidcompassion/startertheme#readme"
+}
