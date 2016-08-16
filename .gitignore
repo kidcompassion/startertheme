@@ -30,9 +30,6 @@
 #
 # -----------------------------------------------------------------
 
-# ignore everything in the root except the "wp-content" directory.
-/*
-!wp-content/
 
 # ignore all files starting with .
 .*
@@ -90,6 +87,7 @@ wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
 
+
 # ignore these plugins
 wp-content/plugins/hello.php
 
@@ -98,3 +96,6 @@ wp-content/themes/twenty*/
 
 # ignore node/grunt dependency directories
 node_modules/
+
+# do not ignore assets
+startertheme/*
